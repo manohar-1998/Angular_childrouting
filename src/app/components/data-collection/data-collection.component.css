@@ -1,0 +1,21 @@
+.page-container {
+    display: flex;
+    height: 100vh; 
+}
+
+.pdf-viewer, .form-viewer {
+    border: 1px solid #000000;
+}
+
+.pdf-viewer {
+    flex: 3;
+    padding: 30px;
+}
+
+.form-viewer {
+    flex: 1;
+    padding: 30px;
+}
+ul {
+    list-style-type: none;
+  }
